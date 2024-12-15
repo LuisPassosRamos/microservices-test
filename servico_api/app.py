@@ -1,8 +1,11 @@
 from flask import Flask, request, jsonify
 
+import requests
+
+
 app = Flask(__name__)
 
-DB_URL = "http://localhost:5001/users"
+DB_URL = "http://servico_db:5001/users"
 
 @app.route("/users", methods=["GET"])
 def get_users():

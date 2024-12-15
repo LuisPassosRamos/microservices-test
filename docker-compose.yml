@@ -6,13 +6,11 @@ services:
     container_name: servico_db
     ports:
       - "5001:5001"
-    network_mode: "host"
 
   servico_api:
     build: ./servico_api
     container_name: servico_api
     ports:
       - "5000:5000"
-    network_mode: "host"
     depends_on:
       - servico_db
