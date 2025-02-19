@@ -26,8 +26,3 @@
 - Testar os endpoints utilizando **Postman** ou **Swagger**.
 
 ---
-
-## Instruções Gerais
-1. Garanta que os microsserviços estejam configurados para se comunicar corretamente.
-2. Documente a API para facilitar os testes e uso posterior.
-3. Certifique-se de tratar erros e retornar respostas apropriadas nos endpoints.
